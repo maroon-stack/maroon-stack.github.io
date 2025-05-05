@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juridica Global - Sobre Nosotros</title>
+  <meta name="description" content="Conoce más sobre el equipo de Jurídica Global, nuestra misión, visión y compromiso con la justicia en Colombia.">
+  <meta name="keywords" content="jurídico, abogados, misión legal, justicia, Colombia">
+  <meta name="author" content="Jurídica Global">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/logo.png" type="image/png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilo personalizado -->
+  <style>
+    body {
+      font-family: 'Lora', serif;
+      background-color: #f9f9f9;
+    }
+
+    .navbar-white {
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .hero-sobre {
+      background: url('images/oficina.png') no-repeat center center/cover;
+      color: white;
+      padding: 100px 0;
+      text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    .icon-box {
+      border-radius: 12px;
+      padding: 30px;
+      background-color: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .icon-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .bg-footer {
+      background-color: #1e1e2f;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+      color: #c0c0ff;
+    }
+
+    /* Estilo del botón flotante de WhatsApp */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+      font-size: 24px;
+      transition: all 0.3s ease;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #128C7E;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-white py-3">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-dark" href="index.html">
+          <img src="images/logo.png" alt="Logo Juridica Global" height="40" class="me-2">
+          <span class="fs-4 fw-semibold">Jurídica Global</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-dark fw-medium" href="index.html">INICIO</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-medium" href="contacto.html">CONTACTO</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-medium" href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-medium" href="servicios.html">SERVICIOS</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-medium" href="productos.html">PRODUCTOS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero-sobre">
+    <div class="container" data-aos="fade-down">
+      <h1 class="display-4 fw-bold">Sobre Nosotros</h1>
+      <p class="lead">Más que abogados, somos aliados legales comprometidos con tu bienestar jurídico.</p>
+    </div>
+  </section>
+
+  <!-- Contenido Principal -->
+  <main class="container my-5">
+    <div class="row g-4">
+      <div class="col-md-6" data-aos="fade-up">
+        <h2 class="fw-bold">Nuestra Historia</h2>
+        <p>Desde nuestra fundación, Jurídica Global se ha consolidado como una firma confiable en Colombia. Nuestro equipo multidisciplinario ha brindado soluciones legales a cientos de personas y empresas en todo el país.</p>
+      </div>
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <img src="images/equipo.jpg" class="img-fluid rounded shadow" alt="Nuestro equipo">
+      </div>
+    </div>
+
+    <div class="row mt-5 g-4">
+      <div class="col-md-6" data-aos="fade-right">
+        <h3 class="fw-bold">Misión</h3>
+        <p>Brindar asesoría y representación jurídica con ética, responsabilidad y compromiso, garantizando la defensa efectiva de los derechos de nuestros clientes.</p>
+      </div>
+      <div class="col-md-6" data-aos="fade-left">
+        <h3 class="fw-bold">Visión</h3>
+        <p>Ser la firma jurídica líder en Colombia en la prestación de servicios legales integrales y accesibles, reconocida por su excelencia y resultados efectivos.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-footer text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row text-center text-md-start" data-aos="fade-up">
+        <!-- Marca -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold mb-3">Jurídica Global</h5>
+          <p>Comprometidos con la excelencia jurídica en Colombia.</p>
+        </div>
+
+        <!-- Contacto -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-semibold mb-3">Contáctanos</h6>
+          <p><i class="fas fa-phone-alt me-2"></i><a href="tel:+573228390433" class="text-white text-decoration-none">+57 322 839 0433</a></p>
+          <p><i class="fas fa-envelope me-2"></i><a href="mailto:tramiteslegales313@gmail.com" class="text-white text-decoration-none">tramiteslegales313@gmail.com</a></p>
+          <p><i class="fas fa-map-marker-alt me-2"></i>Colombia</p>
+        </div>
+
+        <!-- Redes Sociales -->
+        <div class="col-md-4 mb-4">
+          <h6 class="fw-semibold mb-3">Síguenos</h6>
+          <a href="https://www.facebook.com/share/1AM8f2F5nh/?mibextid=wwXIfr" target="_blank" class="text-white me-3 fs-5">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <small>&copy; 2025 Jurídica Global. Todos los derechos reservados.</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/573228390433" target="_blank" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

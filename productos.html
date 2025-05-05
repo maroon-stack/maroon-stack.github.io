@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jurídica Global – Productos</title>
+  <meta name="description" content="Explora los productos legales de Jurídica Global: plantillas de documentos, tutoriales y paquetes de asesoría.">
+  <meta name="keywords" content="plantillas legales, paquetes jurídicos, guías legales, Colombia">
+  <!-- Favicon -->
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Lora', serif; background:#f9f9f9; }
+
+    /* Header blanco */
+    .navbar-white {
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+    .navbar-white .nav-link { color: #333; }
+    .navbar-white .nav-link:hover { color: #1e1e2f; }
+
+    /* Hero productos */
+    .hero-products {
+      background: url('images/productos-hero.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 80px 0;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    }
+
+    /* Tarjetas de producto */
+    .product-card {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      transition: transform .3s, box-shadow .3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      width:100%; height: 200px; object-fit: cover;
+    }
+    .product-icon {
+      font-size: 2rem; color: #1e1e2f; margin-bottom: .5rem;
+    }
+
+    /* Texto negro en main */
+    main, main h1, main p, main ul, main li {
+      color: #000 !important;
+    }
+
+    /* Footer oscuro */
+    .bg-footer {
+      background: #1e1e2f; color:#fff;
+    }
+    .bg-footer a { color:#fff; text-decoration:none; }
+    .bg-footer a:hover { color:#c0c0ff; text-decoration:underline; }
+
+    /* WhatsApp flotante */
+    .whatsapp-float {
+      position: fixed; bottom:20px; right:20px;
+      background:#25d366; width:60px; height:60px;
+      border-radius:50%; display:flex; align-items:center;
+      justify-content:center; color:#fff; font-size:28px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.2); z-index:1000;
+      transition:transform .3s;
+    }
+    .whatsapp-float:hover {
+      transform:scale(1.1); background:#128c7e; text-decoration:none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-white py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center text-dark" href="index.html">
+        <img src="images/logo.png" alt="Logo Juridica Global" height="40" class="me-2">
+        <span class="fs-4 fw-semibold">Jurídica Global</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-dark fw-medium" href="index.html">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fw-medium" href="contacto.html">CONTACTO</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fw-medium" href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fw-medium" href="servicios.html">SERVICIOS</a></li>
+          <li class="nav-item"><a class="nav-link text-dark fw-medium" href="productos.html">PRODUCTOS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+  <!-- Hero Productos -->
+  <section class="hero-products" data-aos="fade-down">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Nuestros Productos</h1>
+      <p class="lead">Plantillas y paquetes legales listos para ti.</p>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <main class="container my-5">
+    <div class="row g-4">
+      <!-- Producto A -->
+      <div class="col-md-4" data-aos="fade-up">
+        <div class="product-card">
+          <img src="images/plantilla-contrato.jpg" alt="Plantilla de Contrato">
+          <div class="p-4 text-center">
+            <i class="fas fa-file contract-icon product-icon"></i>
+            <h5 class="fw-bold">Plantilla de Contrato</h5>
+            <p>Descarga y personaliza contratos laborales, de arrendamiento y más, listos para usar.</p>
+            <a href="#" class="btn btn-outline-primary">Comprar $30</a>
+          </div>
+        </div>
+      </div>
+      <!-- Producto B -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="product-card">
+          <img src="images/guia-tutela.jpg" alt="Guía Tutela">
+          <div class="p-4 text-center">
+            <i class="fas fa-gavel product-icon"></i>
+            <h5 class="fw-bold">Guía de Acción de Tutela</h5>
+            <p>Manual paso a paso para presentar tutelas eficaces ante cualquier vulneración.</p>
+            <a href="#" class="btn btn-outline-primary">Comprar $20</a>
+          </div>
+        </div>
+      </div>
+      <!-- Producto C -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="product-card">
+          <img src="images/paquete-online.jpg" alt="Paquete Online">
+          <div class="p-4 text-center">
+            <i class="fas fa-laptop product-icon"></i>
+            <h5 class="fw-bold">Paquete Asesoría Online</h5>
+            <p>3 consultas ilimitadas por videollamada + documentos digitales, 1 mes de cobertura.</p>
+            <a href="#" class="btn btn-outline-primary">Comprar $100</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <section class="text-center mt-5" data-aos="fade-up">
+      <h2 class="fw-bold">¿Necesitas algo a medida?</h2>
+      <p>Solicita un paquete personalizado y te ofreceremos un plan adaptado a tu caso.</p>
+      <a href="contacto.html" class="btn btn-primary btn-lg">Contáctanos</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-footer pt-5 pb-3">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <div class="col-md-4 mb-4" data-aos="fade-right">
+          <h5 class="fw-bold">Jurídica Global</h5>
+          <p>Excelencia en soluciones legales.</p>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-up">
+          <h6 class="fw-semibold">Contáctanos</h6>
+          <p><i class="fas fa-phone-alt me-2"></i><a href="tel:+573228390433">+57 322 839 0433</a></p>
+          <p><i class="fas fa-envelope me-2"></i><a href="mailto:tramiteslegales313@gmail.com">tramiteslegales313@gmail.com</a></p>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-left">
+          <h6 class="fw-semibold">Síguenos</h6>
+          <a href="https://www.facebook.com/share/1AM8f2F5nh" target="_blank" class="me-3 fs-4"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <small>&copy; 2025 Jurídica Global. Todos los derechos reservados.</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flotante -->
+  <a href="https://wa.me/573228390433" class="whatsapp-float" target="_blank" aria-label="Chat en WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init(); </script>
+</body>
+</html>
